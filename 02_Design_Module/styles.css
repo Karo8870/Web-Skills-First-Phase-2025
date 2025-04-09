@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .corner-place {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .corner-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: transparent;
+    position: relative;
+    z-index: 100;
+  }
+
+  .main-body {
+    max-width: 1300px;
+    width: 100%;
+    z-index: 100;
+  }
+
+  .icon {
+    width: 40px;
+  }
+
+  .main-header {
+    padding-top: 70px;
+    color: #151B2F;
+    font-size: 3rem;
+    width: 40rem;
+  }
+
+  .main-description {
+    width: 30rem;
+    font-weight: lighter;
+    color: rgba(98, 98, 98, 0.597);
+    padding-top: 30px;
+  }
+
+  .get-started-button {
+    background-color: #4D6DFF;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 1000px;
+  }
+
+  .call-us-label {
+    color: black;
+    font-weight: 500;
+  }
+
+  .call-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .concern-label {
+    color: rgba(0, 0, 0, .4);
+    font-size: 14px;
+  }
+
+  .started-container {
+    padding-top: 40px;
+    display: flex;
+    gap: 12px;
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 12rem;
+  }
+
+  .logo {
+    width: 120px;
+    height: auto;
+    margin-right: 1rem;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-list li {
+    margin-right: 1rem;
+  }
+  
+  .nav-list li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .light-mode-toggle {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+  }
+  
+  .light-mode-toggle label {
+    margin-left: 0.5rem;
+    font-size: 0.9rem;
+    color: #333;
+  }
+  
+  .sign-in {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sign-in span {
+    margin-right: 0.5rem;
+    font-size: 0.9rem;
+    color: #ffffff;
+  }
+  
+  .sign-in button {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    background-color: rgba(255, 255, 255, .3);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10000px;
+  }
+  
+  .sign-in button:hover {
+    background-color: #005fa3;
+  }
+
+  .features-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 300px;
+  }
+
+  .feature-container {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .feature-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 1000px;
+  }
+
+  .bg-pink {
+    background-color: #F46A8E;
+  }
+
+  .feature-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .feature-title {
+    color: black;
+    font-size: 24px;
+  }
+
+  .feature-description {
+    color: rgba(0, 0, 0, .4);
+    max-width: 300px;
+  }
+
+  .bg-green {
+    background-color: #1FCB65;
+  }
+
+  .bg-orange {
+    background-color: #FA925F;
+  }
+
+  .people-container {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+  }
+
+  .people-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .people-image {
+    width: 600px;
+  }
+
+  .people-label {
+    color: #4D6DFF;
+  }
+
+  .people-title {
+    font-size: 3rem;
+  }
+
+  .people-description {
+    color: rgba(0, 0, 0, .4);
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .col {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 300px;
+    padding-bottom: 50px;
+  }
+
+  .footer-column h2 {
+    font-weight: 500;
+  }
+
+  .column-items {
+    display: flex;
+    flex-direction: column;
+    gap: 8px; 
+  }
+
+  .w-20 {
+    max-width: 14rem;
+  }
+
+  .column-items label {
+    color: rgba(0, 0, 0, .4);
+  }
